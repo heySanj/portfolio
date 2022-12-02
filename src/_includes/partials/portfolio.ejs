@@ -7,12 +7,6 @@
   </div>
 </div>
 
-<ul>
-  <% for( let project of collections.projects) { %>
-    <li><a href="<%= project.url %>"><%= project.data.title %></a></li>
-  <% } %>
-</ul>
-
 <div class="container">
 
   <div class="row">
@@ -27,6 +21,18 @@
   </div>
 
   <div class="row portfolio-container">    
+
+    <% for( let project of collections.projects) { %>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-<%- project.data.category.toLowerCase() %>">
+        <img src="<%= project.data.thumb %>" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4><%= project.data.projectTitle %></h4>
+          <p><%= project.data.category %></p>
+          <a href="<%= project.data.thumb %>" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="<%= project.data.projectTitle %>"><i class="bx bx-plus"></i></a>
+          <a href="<%= project.url %>" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+    <% } %>
 
 
     <div class="col-lg-4 col-md-6 portfolio-item filter-app">

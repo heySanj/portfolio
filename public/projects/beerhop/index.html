@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title><%= projectTitle %> - <%= title %></title>
+  <title>BeerHop - Sanjeev Prasad</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -90,11 +90,19 @@
                 <div class="portfolio-details-slider swiper">
                   <div class="swiper-wrapper align-items-center">
 
-                    <% for( let img of images ) { %>
+                    
                       <div class="swiper-slide">
-                        <img src="<%= img %>" alt="">
+                        <img src="../../assets/img/beerhop/1.jpg" alt="">
                       </div>
-                    <% } %>
+                    
+                      <div class="swiper-slide">
+                        <img src="../../assets/img/beerhop/2.jpg" alt="">
+                      </div>
+                    
+                      <div class="swiper-slide">
+                        <img src="../../assets/img/beerhop/thumb.jpg" alt="">
+                      </div>
+                    
 
                   </div>
                   <div class="swiper-pagination"></div>
@@ -105,19 +113,20 @@
                 <div class="portfolio-info">
                   <h3>Project information</h3>
                   <ul>
-                    <% if (category) { %>
-                      <li><strong>Category</strong>: <%= category %></li>
-                    <% } %>
-                    <% if (client) { %>
-                      <li><strong>Client</strong>: <%= client %></li>
-                    <% } %>
-                    <% if (projectUrl) { %>
-                      <li><strong>Project URL</strong>: <a href="<%= projectUrl %>"><%= projectUrl %></a></li>
-                    <% } %>
+                    
+                      <li><strong>Category</strong>: Web</li>
+                    
+                    
+                    
+                      <li><strong>Project URL</strong>: <a href="https://beerhop.onrender.com/">https://beerhop.onrender.com/</a></li>
+                    
                   </ul>
                 </div>
                 <div class="portfolio-description">
-                  <%- content %>
+                  <h1>BeerHop</h1>
+<p>Beerhop is a pretty cool website!</p>
+<p>I built it as part of a self taught, web developer bootcamp as a capstone project to demonstrate my ability to create a CRUD and MVC web app.</p>
+
                 </div>
               </div>
     
@@ -128,7 +137,34 @@
 
   </main>
 
-  <%- include('/partials/footer') %> 
+  <!-- ======= Footer ======= -->
+<div id="footer" class="text-center">
+<div class="container">
+    <div class="socials-media text-center">
+
+    <ul class="list-unstyled">
+        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+    </ul>
+
+    </div>
+
+    <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+    <div class="credits">
+    <!--
+    All the links in the footer should remain intact.
+    You can delete the links only if you purchased the pro version.
+    Licensing information: https://bootstrapmade.com/license/
+    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+    -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+
+</div>
+</div><!-- End Footer --> 
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
