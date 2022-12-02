@@ -1,0 +1,72 @@
+    <!-- ======= Services Section ======= -->
+    <div id="skills">
+        <div class="container">
+          
+          <div class="marquee-wrapper">
+  
+            <div class="marquee">
+  
+              <div class="marquee__group">
+
+                <% for( let skill of skills.slice(0, skills.length/2) ) { %>
+
+                  <div class="skill-badge">
+                    <img src="<%= skill.imgUrl %>" />
+                    <p><%= skill.title %></p>
+                  </div>
+                
+                <% } %>
+  
+              </div>
+          
+              <div aria-hidden="true" class="marquee__group">
+
+                <% for( let skill of skills.slice(0, skills.length/2) ) { %>
+
+                  <div class="skill-badge">
+                    <img src="<%= skill.imgUrl %>" />
+                    <p><%= skill.title %></p>
+                  </div>
+                
+                <% } %>
+  
+              </div>
+    
+            </div> <!-- End marquee  -->
+          
+          
+            <div class="marquee marquee--reverse">
+              <div class="marquee__group">
+  
+                <% for( let skill of skills.slice(skills.length/2, skills.length) ) { %>
+
+                  <div class="skill-badge">
+                    <img src="<%= skill.imgUrl %>" />
+                    <p><%= skill.title %></p>
+                  </div>
+                
+                <% } %>
+  
+              </div>
+              
+          
+              <div aria-hidden="true" class="marquee__group">
+  
+                <% for( let skill of skills.slice(skills.length/2, skills.length) ) { %>
+
+                  <div class="skill-badge">
+                    <img src="<%= skill.imgUrl %>" />
+                    <p><%= skill.title %></p>
+                  </div>
+                
+                <% } %>
+  
+              </div>
+    
+            </div> <!-- End reverse marquee  -->
+  
+          </div> <!-- End marquee wrapper  -->
+  
+        </div>
+  
+      </div><!-- End Services Section -->

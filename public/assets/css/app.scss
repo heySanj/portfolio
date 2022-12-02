@@ -1,0 +1,34 @@
+// Import Variables, Fonts and Mixins
+@import "variables", "about", "skills", "portfolio", "contact";
+
+body {
+    font-family: $textFont;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: absolute; /* Or fixed if you want it to be the background of the whole site */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+  }
+
+  .hero-content{
+
+    h1{                
+        font-size: 6em;
+        font-weight: 900;
+        color: $backgroundColour;
+
+        span {
+            color: rgb(229, 255, 80);
+        }
+    }
+    p {
+        color: $backgroundColour;
+        font-weight: 300;
+        font-size: 2em;
+    }
+  }
