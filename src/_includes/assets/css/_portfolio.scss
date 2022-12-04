@@ -1,3 +1,26 @@
 #portfolio {
-    background-color: $backgroundColour;
+    background-color: $darkBackground;
+}
+
+.section-title h2 {
+    color: $mainColour;
+    text-transform: none;
+    font-size: 3em;
+}
+
+.portfolio-item {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+
+    video{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
 }

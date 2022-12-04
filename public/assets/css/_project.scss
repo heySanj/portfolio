@@ -1,0 +1,46 @@
+#portfolio-details {
+    background-color: $secondaryColour;
+
+    
+
+}
+
+.portfolio-info{
+
+    background-color: #1e2d42;
+    color: $mutedColour;
+
+    h3{
+        border-bottom: 1px solid $mutedColour !important;
+    }
+    
+    a{
+        color: $mainColour;
+    }
+}
+
+.portfolio-description {
+    color: $mutedColour;
+
+    p{
+        color: $mutedColour;
+
+        a{
+            color: $mainColour;
+        }
+    }
+}
+
+.btn-outline-light,
+.btn-outline-light:hover,
+.btn-outline-light:active,
+.btn-outline-light:visited,
+.btn-outline-light:focus {
+    color: $mutedColour;
+    border-color: $mutedColour;
+}
+
+.btn-outline-light:hover {
+    background-color: $mutedColour;
+    color: $backgroundColour;
+}

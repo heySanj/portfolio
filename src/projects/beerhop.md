@@ -5,16 +5,21 @@ permalink: "/projects/{{ projectTitle | slugify }}/"
 layout: "project.ejs"
 tags: [projects]
 category: Web
+yr: 2022
+client: 
+projectUrl: https://beerhop.onrender.com/
 
 folder: beerhop
 thumb: "../../assets/img/beerhop/thumb.jpg"
+banner:
+bannerVideo:
 
+video:
 images: 
 - "../../assets/img/beerhop/1.jpg"
 - "../../assets/img/beerhop/2.jpg"
 - "../../assets/img/beerhop/thumb.jpg"
-client: 
-projectUrl: https://beerhop.onrender.com/
+
 
 
 ---

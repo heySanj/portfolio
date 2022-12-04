@@ -3,7 +3,7 @@
 
 <div class="container">
   <div class="section-title text-center">
-    <h2>Projects</h2>
+    <h2>Portfolio</h2>
   </div>
 </div>
 
@@ -22,9 +22,19 @@
 
   <div class="row portfolio-container">    
 
-    <% for( let project of collections.projects) { %>
+
+    <% const shuffledProjects = collections.projects.sort((a, b) => 0.5 - Math.random());
+    
+    for( let project of shuffledProjects) { %>
       <div class="col-lg-4 col-md-6 portfolio-item filter-<%- project.data.category.toLowerCase() %>">
-        <img src="<%= project.data.thumb %>" class="img-fluid" alt="">
+
+        <% if (project.data.bannerVideo) { %>
+          <video autoplay muted loop id="bannerVideo" class="w-100">
+            <source src="<%= project.data.bannerVideo %>" type="video/mp4">
+          </video>    
+        <% } else { %>
+          <img src="<%= project.data.thumb %>" class="img-fluid" alt="">
+        <% } %>        
         <div class="portfolio-info">
           <h4><%= project.data.projectTitle %></h4>
           <p><%= project.data.category %></p>

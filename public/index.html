@@ -16,6 +16,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
 
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/c19be33044.js" crossorigin="anonymous"></script>
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -43,33 +46,15 @@
 <header id="header" class="fixed-top ">
 <div class="container d-flex align-items-center justify-content-between">
 
-    <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+    <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
     <!-- Uncomment below if you prefer to use an text logo -->
-    <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+    <h1 class="logo"><a href="/">Sanj!</a></h1>
 
     <nav id="navbar" class="navbar">
     <ul>
         <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
         <li><a class="nav-link scrollto" href="#about">About</a></li>
         <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-        <li><a class="nav-link  scrollto" href="#journal">Blog</a></li>
-        <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-        <ul>
-            <li><a href="#">Drop Down 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-                <li><a href="#">Deep Drop Down 1</a></li>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                <li><a href="#">Deep Drop Down 3</a></li>
-                <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
-            </ul>
-            </li>
-            <li><a href="#">Drop Down 2</a></li>
-            <li><a href="#">Drop Down 3</a></li>
-            <li><a href="#">Drop Down 4</a></li>
-        </ul>
-        </li>
         <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>
@@ -489,7 +474,7 @@
 
 <div class="container">
   <div class="section-title text-center">
-    <h2>Projects</h2>
+    <h2>Portfolio</h2>
   </div>
 </div>
 
@@ -508,24 +493,48 @@
 
   <div class="row portfolio-container">    
 
-    
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <img src="../../assets/img/beerhop/thumb.jpg" class="img-fluid" alt="">
-        <div class="portfolio-info">
-          <h4>BeerHop</h4>
-          <p>Web</p>
-          <a href="../../assets/img/beerhop/thumb.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="BeerHop"><i class="bx bx-plus"></i></a>
-          <a href="/projects/beerhop/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-        </div>
-      </div>
+
     
       <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-        <img src="../../assets/img/domino/pic2.jpg" class="img-fluid" alt="">
+
+        
+          <video autoplay muted loop id="bannerVideo" class="w-100">
+            <source src="../../assets/img/domino/background.mp4" type="video/mp4">
+          </video>    
+                
         <div class="portfolio-info">
           <h4>Drop that Domino!</h4>
           <p>Game</p>
           <a href="../../assets/img/domino/pic2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Drop that Domino!"><i class="bx bx-plus"></i></a>
           <a href="/projects/drop-that-domino/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+    
+      <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+
+        
+          <video autoplay muted loop id="bannerVideo" class="w-100">
+            <source src="../../assets/img/neopanic/NEO_PANIC_VIDEO.mp4" type="video/mp4">
+          </video>    
+                
+        <div class="portfolio-info">
+          <h4>Neopolitan Panic!</h4>
+          <p>Game</p>
+          <a href="../../assets/img/neopanic/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Neopolitan Panic!"><i class="bx bx-plus"></i></a>
+          <a href="/projects/neopolitan-panic/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+    
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+        
+          <img src="../../assets/img/beerhop/thumb.jpg" class="img-fluid" alt="">
+                
+        <div class="portfolio-info">
+          <h4>BeerHop</h4>
+          <p>Web</p>
+          <a href="../../assets/img/beerhop/thumb.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="BeerHop"><i class="bx bx-plus"></i></a>
+          <a href="/projects/beerhop/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
         </div>
       </div>
     
@@ -606,7 +615,7 @@
               <div class="col-lg-6">
                 <div class="contact-contact">
   
-                  <h2 class="mb-30">GET IN TOUCH</h2>
+                  <h2 class="mb-30">Get in Touch</h2>
   
                   <ul class="contact-details">
                     <li><span>23 Main, Street</span></li>
@@ -624,25 +633,25 @@
   
                     <div class="col-lg-6">
                       <div class="form-group contact-block1">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="YOUR NAME" required>
                       </div>
                     </div>
   
                     <div class="col-lg-6">
                       <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="YOUR EMAIL" required>
                       </div>
                     </div>
   
                     <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="SUBJECT" required>
                       </div>
                     </div>
   
                     <div class="col-lg-12">
                       <div class="form-group">
-                        <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                        <textarea class="form-control" name="message" placeholder="MESSAGE" required></textarea>
                       </div>
                     </div>
   
@@ -680,7 +689,7 @@
 
     </div>
 
-    <p>&copy; Copyrights Folio. All rights reserved.</p>
+    <p>&copy; Sanjeev Prasad. All rights reserved.</p>
 
     <div class="credits">
     <!--
@@ -689,7 +698,7 @@
     Licensing information: https://bootstrapmade.com/license/
     Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
     -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    Built using a template from <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
 
 </div>

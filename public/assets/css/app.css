@@ -153,15 +153,121 @@
   }
 }
 #portfolio {
-  background-color: #feffef;
+  background-color: #1c3b3b;
+}
+
+.section-title h2 {
+  color: #e5ff50;
+  text-transform: none;
+  font-size: 3em;
+}
+
+.portfolio-item {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.portfolio-item video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.portfolio-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #contact {
   background-color: #15202f;
 }
+#contact h2 {
+  color: #e5ff50;
+  text-transform: none;
+}
+
+.form-control {
+  text-transform: none;
+}
+
+form .btn-send {
+  background-color: #6c83a3;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+form .btn-send:hover {
+  background-color: #e5ff50;
+}
+
+#portfolio-details {
+  background-color: #15202f;
+}
+
+.portfolio-info {
+  background-color: #1e2d42;
+  color: #6c83a3;
+}
+.portfolio-info h3 {
+  border-bottom: 1px solid #6c83a3 !important;
+}
+.portfolio-info a {
+  color: #e5ff50;
+}
+
+.portfolio-description {
+  color: #6c83a3;
+}
+.portfolio-description p {
+  color: #6c83a3;
+}
+.portfolio-description p a {
+  color: #e5ff50;
+}
+
+.btn-outline-light,
+.btn-outline-light:hover,
+.btn-outline-light:active,
+.btn-outline-light:visited,
+.btn-outline-light:focus {
+  color: #6c83a3;
+  border-color: #6c83a3;
+}
+
+.btn-outline-light:hover {
+  background-color: #6c83a3;
+  color: #feffef;
+}
+
+#header {
+  background-color: black;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.logo {
+  letter-spacing: -0.05em;
+}
+
+#footer {
+  background-color: black;
+}
+#footer .credits, #footer .credits a {
+  color: rgba(255, 255, 255, 0.178);
+}
 
 body {
   font-family: "IBM Plex Mono", monospace;
+}
+body a {
+  color: #e5ff50;
+}
+body .nav-link {
+  font-family: "IBM Plex Mono", monospace;
+  color: #6c83a3;
+}
+
+.active {
+  color: #e5ff50 !important;
 }
 
 /* Style the video: 100% width and height to cover the entire window */

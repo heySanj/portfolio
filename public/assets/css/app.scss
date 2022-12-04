@@ -1,9 +1,24 @@
 // Import Variables, Fonts and Mixins
-@import "variables", "about", "skills", "portfolio", "contact";
+@import "variables", "about", "skills", "portfolio", "contact", "project", "navbar", "footer";
 
 body {
     font-family: $textFont;
+
+    a {
+        color: $mainColour;
+    }
+
+    .nav-link {
+        font-family: $textFont;
+        color: $mutedColour;
+    }
 }
+
+.active{
+    color: $mainColour !important;
+}
+
+
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
