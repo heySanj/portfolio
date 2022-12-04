@@ -156,6 +156,10 @@
   background-color: #1c3b3b;
 }
 
+.filter-active {
+  color: #e5ff50 !important;
+}
+
 .section-title h2 {
   color: #e5ff50;
   text-transform: none;
@@ -187,6 +191,10 @@
   text-transform: none;
 }
 
+input, textarea {
+  border-color: #6c83a3 !important;
+}
+
 .form-control {
   text-transform: none;
 }
@@ -202,6 +210,7 @@ form .btn-send:hover {
 
 #portfolio-details {
   background-color: #15202f;
+  padding: 8em 0;
 }
 
 .portfolio-info {
@@ -248,8 +257,16 @@ form .btn-send:hover {
   letter-spacing: -0.05em;
 }
 
+.navbar-mobile ul {
+  background-color: #15202f;
+  bottom: auto;
+}
+
 #footer {
   background-color: black;
+}
+#footer .list-unstyled a:hover {
+  color: #e5ff50 !important;
 }
 #footer .credits, #footer .credits a {
   color: rgba(255, 255, 255, 0.178);
@@ -268,6 +285,10 @@ body .nav-link {
 
 .active {
   color: #e5ff50 !important;
+}
+
+#header {
+  z-index: 10000;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -292,4 +313,25 @@ body .nav-link {
   color: #feffef;
   font-weight: 300;
   font-size: 2em;
+}
+.hero-content .list-social li i {
+  font-size: 1.5em !important;
+}
+.hero-content .list-social :hover {
+  color: #e5ff50;
+}
+
+.back-to-top {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #e5ff50;
+}
+.back-to-top .bi {
+  color: #e5ff50 !important;
+}
+
+.back-to-top:hover {
+  background: #e5ff50;
+}
+.back-to-top:hover .bi {
+  color: #15202f !important;
 }/*# sourceMappingURL=app.css.map */

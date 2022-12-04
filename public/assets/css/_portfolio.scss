@@ -2,6 +2,10 @@
     background-color: $darkBackground;
 }
 
+.filter-active {
+    color: $mainColour !important;
+}
+
 .section-title h2 {
     color: $mainColour;
     text-transform: none;

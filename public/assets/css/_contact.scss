@@ -8,6 +8,10 @@
 
 }
 
+input, textarea{
+    border-color: $mutedColour !important;
+}
+
 .form-control {
     text-transform: none;
 }

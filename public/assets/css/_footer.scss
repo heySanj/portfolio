@@ -1,6 +1,10 @@
 #footer {
     background-color: black;
 
+    .list-unstyled a:hover {
+        color: $mainColour !important;
+    }
+
     .credits ,.credits a {
         color: rgba(255, 255, 255, 0.178);
     }

@@ -18,6 +18,9 @@ body {
     color: $mainColour !important;
 }
 
+#header{
+    z-index: 10000;
+}
 
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -45,5 +48,31 @@ body {
         color: $backgroundColour;
         font-weight: 300;
         font-size: 2em;
+    }
+
+    .list-social{
+
+        li i {
+            font-size: 1.5em !important;
+        }
+        
+        :hover {
+            color: $mainColour;
+        }
+    }
+  }
+
+  .back-to-top {
+    background-color: rgba($color: #000000, $alpha: 0.0);
+    border: 1px solid $mainColour;
+    .bi {
+        color: $mainColour !important;
+    }
+  }
+
+  .back-to-top:hover{
+    background: $mainColour;
+    .bi{
+        color: $secondaryColour !important;
     }
   }
