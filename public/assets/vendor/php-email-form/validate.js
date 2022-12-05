@@ -60,7 +60,12 @@
     })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
-      if (data.trim() == 'OK') {
+      // const dataObj = JSON.parse(data)
+      // console.log(dataObj);
+      if (dataObj.ok){
+        thisForm.querySelector('.sent-message').classList.add('d-block');
+        thisForm.reset(); 
+      } else if (data.trim() == 'OK') {
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {

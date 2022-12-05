@@ -5,6 +5,10 @@
 
 .logo{
     letter-spacing: -.05em;
+
+    a:hover{
+        color: rgba($color: #fcffd9, $alpha: 1);
+    }
 }
 
 .navbar-mobile ul{

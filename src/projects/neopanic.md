@@ -12,9 +12,9 @@ projectUrl: "https://ouroborosgames.itch.io/neopolitan-panic"
 folder: neopanic
 thumb: "../../assets/img/neopanic/1.jpg"
 banner:
-bannerVideo: "../../assets/img/neopanic/NEO_PANIC_VIDEO.mp4"
+bannerVideo: "../../assets/img/neopanic/neopanic_thumb.mp4"
 
-video: "../../assets/img/neopanic/NEO_PANIC_VIDEO.mp4"
+video: "../../assets/img/neopanic/neopanic_video.mp4"
 images: 
 - "../../assets/img/neopanic/1.jpg"
 - "../../assets/img/neopanic/2.jpg"

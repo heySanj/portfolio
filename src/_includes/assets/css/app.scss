@@ -12,6 +12,9 @@ body {
         font-family: $textFont;
         color: $mutedColour;
     }
+    .nav-link:hover {
+        color: $mainColour !important;
+    }
 }
 
 .active{
@@ -40,9 +43,15 @@ body {
         font-weight: 900;
         color: $backgroundColour;
 
+        @media only screen and (max-width: 640px) {
+            letter-spacing: -.05em;
+            font-size: 4em;
+        }
+
         span {
             color: rgb(229, 255, 80);
         }
+
     }
     p {
         color: $backgroundColour;

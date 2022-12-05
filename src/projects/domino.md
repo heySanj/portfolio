@@ -12,7 +12,7 @@ projectUrl: "https://tinyurl.com/522nk648"
 folder: domino
 thumb: "../../assets/img/domino/pic2.jpg"
 banner:
-bannerVideo: "../../assets/img/domino/background.mp4"
+bannerVideo: "../../assets/img/domino/domino_thumb.mp4"
 
 video: "../../assets/img/domino/video.webm"
 images: 

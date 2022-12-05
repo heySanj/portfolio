@@ -46,7 +46,6 @@
   display: grid;
   place-items: center;
   padding: 1em 3em;
-  border-radius: 0.5rem;
 }
 .skill-badge img {
   padding: 0.5em 0;
@@ -156,7 +155,13 @@
   background-color: #1c3b3b;
 }
 
-.filter-active {
+#portfolio-flters li {
+  color: #6c83a3 !important;
+}
+#portfolio-flters li:hover {
+  color: #e5ff50 !important;
+}
+#portfolio-flters .filter-active {
   color: #e5ff50 !important;
 }
 
@@ -181,6 +186,22 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.portfolio-item .portfolio-info {
+  left: 12px !important;
+  right: 12px !important;
+  bottom: 0px !important;
+  background-color: #15202f !important;
+}
+.portfolio-item .portfolio-info h4 {
+  color: #e5ff50 !important;
+}
+.portfolio-item .portfolio-info p {
+  display: inline !important;
+}
+.portfolio-item .portfolio-info a {
+  display: inline !important;
+  float: right !important;
 }
 
 #contact {
@@ -256,6 +277,9 @@ form .btn-send:hover {
 .logo {
   letter-spacing: -0.05em;
 }
+.logo a:hover {
+  color: #fcffd9;
+}
 
 .navbar-mobile ul {
   background-color: #15202f;
@@ -282,6 +306,9 @@ body .nav-link {
   font-family: "IBM Plex Mono", monospace;
   color: #6c83a3;
 }
+body .nav-link:hover {
+  color: #e5ff50 !important;
+}
 
 .active {
   color: #e5ff50 !important;
@@ -305,6 +332,12 @@ body .nav-link {
   font-size: 6em;
   font-weight: 900;
   color: #feffef;
+}
+@media only screen and (max-width: 640px) {
+  .hero-content h1 {
+    letter-spacing: -0.05em;
+    font-size: 4em;
+  }
 }
 .hero-content h1 span {
   color: rgb(229, 255, 80);

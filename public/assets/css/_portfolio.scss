@@ -2,8 +2,21 @@
     background-color: $darkBackground;
 }
 
-.filter-active {
-    color: $mainColour !important;
+
+
+#portfolio-flters{
+
+    li{
+        color: $mutedColour !important;
+    }    
+
+    li:hover{
+        color: $mainColour !important;
+    }
+
+    .filter-active {
+        color: $mainColour !important;
+    }
 }
 
 .section-title h2 {
@@ -27,4 +40,27 @@
         width: 100%;
         object-fit: cover;
     }
+
+    .portfolio-info{
+        left: 12px !important;
+        right: 12px !important;
+        bottom: 0px !important;
+        background-color: $secondaryColour !important;
+    
+        h4{
+            color: $mainColour !important;
+        }
+    
+        p{
+            display: inline !important;
+        }
+    
+        a{
+            display: inline !important;
+            float: right !important;
+        }
+    }
+
+
 }
+

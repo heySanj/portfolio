@@ -170,41 +170,42 @@
       loop: true,
       typeSpeed: 100,
       backSpeed: 50,
-      backDelay: 2000
+      backDelay: 2000,
+      
     });
   }
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.services-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      1200: {
-        slidesPerView: 4,
-        spaceBetween: 20
-      }
-    }
-  });
+  // /**
+  //  * Testimonials slider
+  //  */
+  // new Swiper('.services-slider', {
+  //   speed: 600,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   slidesPerView: 'auto',
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   },
+  //   breakpoints: {
+  //     320: {
+  //       slidesPerView: 1,
+  //       spaceBetween: 20
+  //     },
+  //     768: {
+  //       slidesPerView: 2,
+  //       spaceBetween: 20
+  //     },
+  //     1200: {
+  //       slidesPerView: 4,
+  //       spaceBetween: 20
+  //     }
+  //   }
+  // });
 
   /**
    * Porfolio isotope and filter
@@ -242,21 +243,21 @@
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+  // /**
+  //  * Portfolio details slider
+  //  */
+  // new Swiper('.portfolio-details-slider', {
+  //   speed: 400,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   }
+  // });
 
 })()

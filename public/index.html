@@ -473,7 +473,7 @@
 
 <div class="container">
   <div class="section-title text-center">
-    <h2>Portfolio</h2>
+    <h2>Portfolio.</h2>
   </div>
 </div>
 
@@ -483,14 +483,14 @@
     <div class="col-lg-12 d-flex justify-content-center">
       <ul id="portfolio-flters">
         <li data-filter="*" class="filter-active">All</li>
-        <li data-filter=".filter-app">App</li>
-        <li data-filter=".filter-card">Card</li>
         <li data-filter=".filter-web">Web</li>
+        <li data-filter=".filter-game">Game</li>
+        <li data-filter=".filter-design">Design</li>
       </ul>
     </div>
   </div>
 
-  <div class="row portfolio-container">    
+  <div id="projectsContainer" class="row portfolio-container">    
 
 
     
@@ -502,8 +502,9 @@
         <div class="portfolio-info">
           <h4>BeerHop</h4>
           <p>Web</p>
-          <a href="../../assets/img/beerhop/thumb.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="BeerHop"><i class="bx bx-plus"></i></a>
-          <a href="/projects/beerhop/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <a href="/projects/beerhop/" class="float-right">
+            <button type="button" class="btn btn-sm btn-outline-light">View</button>
+          </a>
         </div>
       </div>
     
@@ -511,14 +512,15 @@
 
         
           <video autoplay muted loop id="bannerVideo" class="w-100">
-            <source src="../../assets/img/domino/background.mp4" type="video/mp4">
+            <source src="../../assets/img/domino/domino_thumb.mp4" type="video/mp4">
           </video>    
                 
         <div class="portfolio-info">
           <h4>Drop that Domino!</h4>
           <p>Game</p>
-          <a href="../../assets/img/domino/pic2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Drop that Domino!"><i class="bx bx-plus"></i></a>
-          <a href="/projects/drop-that-domino/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <a href="/projects/drop-that-domino/" class="float-right">
+            <button type="button" class="btn btn-sm btn-outline-light">View</button>
+          </a>
         </div>
       </div>
     
@@ -526,82 +528,58 @@
 
         
           <video autoplay muted loop id="bannerVideo" class="w-100">
-            <source src="../../assets/img/neopanic/NEO_PANIC_VIDEO.mp4" type="video/mp4">
+            <source src="../../assets/img/neopanic/neopanic_thumb.mp4" type="video/mp4">
           </video>    
                 
         <div class="portfolio-info">
           <h4>Neopolitan Panic!</h4>
           <p>Game</p>
-          <a href="../../assets/img/neopanic/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Neopolitan Panic!"><i class="bx bx-plus"></i></a>
-          <a href="/projects/neopolitan-panic/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          <a href="/projects/neopolitan-panic/" class="float-right">
+            <button type="button" class="btn btn-sm btn-outline-light">View</button>
+          </a>
+        </div>
+      </div>
+    
+      <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+
+        
+          <video autoplay muted loop id="bannerVideo" class="w-100">
+            <source src="../../assets/img/powerCore/powercore_thumb.mp4" type="video/mp4">
+          </video>    
+                
+        <div class="portfolio-info">
+          <h4>powerCore</h4>
+          <p>Game</p>
+          <a href="/projects/powercore/" class="float-right">
+            <button type="button" class="btn btn-sm btn-outline-light">View</button>
+          </a>
+        </div>
+      </div>
+    
+      <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+
+        
+          <video autoplay muted loop id="bannerVideo" class="w-100">
+            <source src="../../assets/img/sacrificial-wool/wool_thumb.mp4" type="video/mp4">
+          </video>    
+                
+        <div class="portfolio-info">
+          <h4>Sacrificial Wool</h4>
+          <p>Game</p>
+          <a href="/projects/sacrificial-wool/" class="float-right">
+            <button type="button" class="btn btn-sm btn-outline-light">View</button>
+          </a>
         </div>
       </div>
     
 
 
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-      <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-      <div class="portfolio-info">
-        <h4>App 1</h4>
-        <p>App</p>
-        <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-      <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-      <div class="portfolio-info">
-        <h4>Web 3</h4>
-        <p>Web</p>
-        <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-      <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-      <div class="portfolio-info">
-        <h4>App 2</h4>
-        <p>App</p>
-        <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-      <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-      <div class="portfolio-info">
-        <h4>Card 2</h4>
-        <p>Card</p>
-        <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-      <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-      <div class="portfolio-info">
-        <h4>Web 2</h4>
-        <p>Web</p>
-        <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-      <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-      <div class="portfolio-info">
-        <h4>App 3</h4>
-        <p>App</p>
-        <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-      </div>
-    </div>
 
   </div>
 
 </div>
+
+<script src="assets/js/shuffleProjects.js"></script>
 
 </div><!-- End Portfolio Section --> 
 
@@ -614,7 +592,7 @@
               <div class="col-lg-6">
                 <div class="contact-contact">
   
-                  <h2 class="mb-30">Get in Touch</h2>
+                  <h2 class="mb-30">Get in Touch.</h2>
   
                   <ul class="contact-details">
                     <li><span>23 Main, Street</span></li>
@@ -627,7 +605,7 @@
               </div>
   
               <div class="col-lg-6">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="https://formspree.io/f/mzbwnbjn" method="POST" role="form" class="php-email-form">
                   <div class="row gy-3">
   
                     <div class="col-lg-6">
@@ -708,7 +686,7 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
