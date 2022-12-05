@@ -9,6 +9,12 @@ yr: 2018
 client: Ludum Dare 43
 projectUrl: "https://ouroborosgames.itch.io/sacrificial-wool"
 
+badges:
+- Unity3D
+- C#
+- Photoshop
+- Illustrator
+
 folder: sacrificial-wool
 thumb: "../../assets/img/sacrificial-wool/1.jpg"
 banner:

@@ -9,6 +9,12 @@ yr: 2017
 client: Ludum Dare 39
 projectUrl: "https://ouroborosgames.itch.io/neopolitan-panic"
 
+badges:
+- Unity3D
+- C#
+- Photoshop
+- Illustrator
+
 folder: neopanic
 thumb: "../../assets/img/neopanic/1.jpg"
 banner:

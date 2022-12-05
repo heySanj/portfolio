@@ -9,6 +9,19 @@ yr: 2022
 client: 
 projectUrl: https://beerhop.onrender.com/
 
+badges:
+- NodeJS
+- JavaScript
+- HTML5
+- CSS
+- Sass
+- Bootstrap
+- ExpressJS
+- MongoDB
+- CRUD
+- MVC
+- PassportJS
+
 folder: beerhop
 thumb: "../../assets/img/beerhop/thumb.jpg"
 banner:

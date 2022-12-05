@@ -9,6 +9,12 @@ yr: 2017
 client: Game Maker's Toolkit Jam
 projectUrl: "https://sanjeev.itch.io/powercore"
 
+badges:
+- Unity3D
+- C#
+- Photoshop
+- Illustrator
+
 folder: powerCore
 thumb: "../../assets/img/powerCore/1.jpg"
 banner:

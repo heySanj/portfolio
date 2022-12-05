@@ -9,6 +9,14 @@ yr: 2016
 client: 
 projectUrl: "https://tinyurl.com/522nk648"
 
+badges:
+- Unity3D
+- C#
+- Photoshop
+- Illustrator
+- Blender3D
+- Mobile Development
+
 folder: domino
 thumb: "../../assets/img/domino/pic2.jpg"
 banner:

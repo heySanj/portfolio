@@ -244,6 +244,13 @@ form .btn-send:hover {
 .portfolio-info a {
   color: #e5ff50;
 }
+.portfolio-info .badge {
+  background-color: #6c83a3;
+  color: #feffef;
+  font-weight: 300;
+  border-radius: 0;
+  margin: 0.3em 0;
+}
 
 .portfolio-description {
   color: #6c83a3;

@@ -106,6 +106,13 @@
                         <li><strong>Project URL</strong>: <a href="<%= projectUrl %>"><%= projectUrl %></a></li>
                       <% } %>
                     </ul>
+
+                    <% if (badges) { %>
+                      <% for(let badge of badges) { %>
+                        <span class="badge"><%= badge %></span>
+                      <% } %>
+                    <% } %>
+
                   </div>
                   <div class="portfolio-description px-2">
                     <%- content %>
