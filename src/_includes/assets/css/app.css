@@ -314,6 +314,11 @@ form .btn-send:hover {
 
 body {
   font-family: "IBM Plex Mono", monospace;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
 body a {
   color: #e5ff50;
