@@ -16,11 +16,6 @@ body {
         color: $mainColour !important;
     }
 
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
 }
 
 .active{
@@ -32,10 +27,11 @@ body {
 }
 
 #hero{
-    min-height: 100vh;            /* fall-back */
-    min-height: -moz-available;
-    min-height: -webkit-fill-available;
-    min-height: fill-available;
+    min-height: 100vh;
+
+    @media only screen and (max-width: 640px) {
+        min-height: 100%;
+    }
 }
 
 
