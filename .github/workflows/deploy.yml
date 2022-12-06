@@ -1,0 +1,22 @@
+# Upload the public website files to FTP server on push
+name: 🚀 Deploy website on push
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@v2
+        
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{secrets.FTP_SERVER}}
+          username: ${{secrets.FTP_USER}}
+          password: ${{secrets.FTP_PASS}}
+          port: ${{secrets.FTP_PORT}}
+          local-dir: ./public/
