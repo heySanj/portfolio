@@ -334,20 +334,10 @@ body .nav-link:hover {
   z-index: 10000;
 }
 
-#hero {
-  min-height: 100vh;
-}
-@media only screen and (max-width: 640px) {
-  #hero {
-    min-height: 100%;
-  }
-}
-
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: absolute; /* Or fixed if you want it to be the background of the whole site */
   right: 0;
-  bottom: 0;
   z-index: -5;
   min-width: 100%;
   min-height: 100%;
