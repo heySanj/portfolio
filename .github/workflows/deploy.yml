@@ -19,4 +19,6 @@ jobs:
           username: ${{secrets.FTP_USER}}
           password: ${{secrets.FTP_PASS}}
           port: ${{secrets.FTP_PORT}}
+          protocol: ftps
+          security: loose
           local-dir: ./public/
