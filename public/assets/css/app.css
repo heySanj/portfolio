@@ -334,14 +334,21 @@ body .nav-link:hover {
   z-index: 10000;
 }
 
+#hero {
+  min-height: 100vh; /* fall-back */
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: absolute; /* Or fixed if you want it to be the background of the whole site */
   right: 0;
   bottom: 0;
+  z-index: -5;
   min-width: 100%;
   min-height: 100%;
-  z-index: -5;
 }
 
 .hero-content h1 {
