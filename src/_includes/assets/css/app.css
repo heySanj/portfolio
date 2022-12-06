@@ -352,7 +352,7 @@ body .nav-link:hover {
 @media only screen and (max-width: 640px) {
   .hero-content h1 {
     letter-spacing: -0.05em;
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 .hero-content h1 span {
@@ -362,6 +362,11 @@ body .nav-link:hover {
   color: #feffef;
   font-weight: 300;
   font-size: 2em;
+}
+@media only screen and (max-width: 640px) {
+  .hero-content p {
+    font-size: 1.3em;
+  }
 }
 .hero-content .list-social li i {
   font-size: 1.5em !important;

@@ -45,7 +45,7 @@ body {
 
         @media only screen and (max-width: 640px) {
             letter-spacing: -.05em;
-            font-size: 4em;
+            font-size: 3em;
         }
 
         span {
@@ -57,6 +57,10 @@ body {
         color: $backgroundColour;
         font-weight: 300;
         font-size: 2em;
+
+        @media only screen and (max-width: 640px) {
+            font-size: 1.3em;
+        }
     }
 
     .list-social{
