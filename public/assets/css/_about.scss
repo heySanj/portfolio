@@ -7,6 +7,14 @@
     background: $secondaryColour;
     padding-top: 120px;
 
+    .p-heading{
+        line-height: 1.0em !important;
+    }
+
+    .separator{
+        color: $backgroundColour;
+    }
+
     .div-img-bg {
         padding-bottom: 0;
         border: none;

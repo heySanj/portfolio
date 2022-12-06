@@ -9,6 +9,12 @@
   background: #15202f;
   padding-top: 120px;
 }
+#about .p-heading {
+  line-height: 1em !important;
+}
+#about .separator {
+  color: #feffef;
+}
 #about .div-img-bg {
   padding-bottom: 0;
   border: none;
@@ -206,6 +212,9 @@
 
 #contact {
   background-color: #15202f;
+}
+#contact .contact-details {
+  color: #feffef;
 }
 #contact h2 {
   color: #e5ff50;

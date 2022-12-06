@@ -1,6 +1,10 @@
 #contact{
     background-color: $secondaryColour;
 
+    .contact-details{
+        color: $backgroundColour;
+    }
+
     h2 {
         color: $mainColour;
         text-transform: none;
