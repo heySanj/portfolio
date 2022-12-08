@@ -7,7 +7,7 @@ tags: [projects]
 category: Web
 yr: 2022
 client: 
-projectUrl: https://beerhop.onrender.com/
+projectUrl: https://beerhop.sanj.zone/
 
 badges:
 - NodeJS
@@ -21,6 +21,8 @@ badges:
 - CRUD
 - MVC
 - PassportJS
+- Amazon AWS
+- Amazon EC2
 
 folder: beerhop
 thumb: "../../assets/img/beerhop/thumb.jpg"
